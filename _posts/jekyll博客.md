@@ -1,0 +1,21 @@
+---
+title: jekyll写博客发布步骤
+tags: 博客
+time: 2024-04-12
+---
+
+
+
+## 本地预览
+
+1. 在`D:\jekyll-TeXt-theme`这个路径下运行cmd
+2. 执行`bundle exec jekyll serve`这个命令
+3. 之后就可以通过http://localhost:4000/ 预览网站了
+
+
+
+## 推送博客到github
+
+1. 编辑完博客文件之后，使用`git commit -a`，该命令合并了add和commit两个命令
+2. 之后可以使用`git status`查看工作目录和暂存区的状态
+3. 使用`git push origin main`推送到github
